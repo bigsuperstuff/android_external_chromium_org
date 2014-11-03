@@ -23,7 +23,7 @@ LOCAL_GENERATED_SOURCES :=
 GYP_COPIED_SOURCE_ORIGIN_DIRS :=
 
 LOCAL_SRC_FILES := \
-	ui/events/keycodes/dom4/keycode_converter.cc
+	ui/events/keycodes/dom4/keycode_converter.cc.arm
 
 
 # Flags passed to both C and C++ files.

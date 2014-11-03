@@ -36,7 +36,7 @@ LOCAL_SRC_FILES := \
 	crypto/hkdf.cc \
 	crypto/hmac_openssl.cc \
 	crypto/p224_spake.cc \
-	crypto/openssl_util.cc \
+	crypto/openssl_util.cc.arm \
 	crypto/p224.cc \
 	crypto/random.cc \
 	crypto/rsa_private_key.cc \

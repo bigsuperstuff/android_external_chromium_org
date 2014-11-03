@@ -39,7 +39,7 @@ LOCAL_SRC_FILES := \
 	media/audio/audio_input_ipc.cc \
 	media/audio/audio_manager.cc \
 	media/audio/audio_manager_base.cc \
-	media/audio/audio_output_controller.cc \
+	media/audio/audio_output_controller.cc.arm \
 	media/audio/audio_output_device.cc \
 	media/audio/audio_output_dispatcher.cc \
 	media/audio/audio_output_dispatcher_impl.cc \
@@ -94,7 +94,7 @@ LOCAL_SRC_FILES := \
 	media/base/filter_collection.cc \
 	media/base/media.cc \
 	media/base/media_keys.cc \
-	media/base/media_log.cc \
+	media/base/media_log.cc.arm \
 	media/base/media_switches.cc \
 	media/base/multi_channel_resampler.cc \
 	media/base/pipeline.cc \
@@ -105,8 +105,8 @@ LOCAL_SRC_FILES := \
 	media/base/simd/convert_rgb_to_yuv_c.cc \
 	media/base/simd/convert_yuv_to_rgb_c.cc \
 	media/base/simd/filter_yuv_c.cc \
-	media/base/simd/yuv_to_rgb_table.cc \
-	media/base/sinc_resampler.cc \
+	media/base/simd/yuv_to_rgb_table.cc.arm \
+	media/base/sinc_resampler.cc.arm \
 	media/base/stream_parser.cc \
 	media/base/stream_parser_buffer.cc \
 	media/base/text_cue.cc \
@@ -147,7 +147,7 @@ LOCAL_SRC_FILES := \
 	media/midi/midi_message_util.cc \
 	media/midi/midi_port_info.cc \
 	media/video/capture/android/video_capture_device_android.cc \
-	media/video/capture/fake_video_capture_device.cc \
+	media/video/capture/fake_video_capture_device.cc.arm \
 	media/video/capture/file_video_capture_device.cc \
 	media/video/capture/video_capture_device.cc \
 	media/video/capture/video_capture_proxy.cc \

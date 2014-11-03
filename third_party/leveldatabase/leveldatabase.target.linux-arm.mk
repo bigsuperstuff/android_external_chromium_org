@@ -24,7 +24,7 @@ GYP_COPIED_SOURCE_ORIGIN_DIRS :=
 
 LOCAL_SRC_FILES := \
 	third_party/leveldatabase/env_chromium.cc \
-	third_party/leveldatabase/port/port_chromium.cc \
+	third_party/leveldatabase/port/port_chromium.cc.arm \
 	third_party/leveldatabase/src/db/builder.cc \
 	third_party/leveldatabase/src/db/db_impl.cc \
 	third_party/leveldatabase/src/db/db_iter.cc \

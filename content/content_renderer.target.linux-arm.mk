@@ -108,7 +108,7 @@ LOCAL_SRC_FILES := \
 	content/renderer/media/android/media_info_loader.cc \
 	content/renderer/media/android/media_source_delegate.cc \
 	content/renderer/media/android/proxy_media_keys.cc \
-	content/renderer/media/android/renderer_demuxer_android.cc \
+	content/renderer/media/android/renderer_demuxer_android.cc.arm \
 	content/renderer/media/android/renderer_media_player_manager.cc \
 	content/renderer/media/android/stream_texture_factory_android_impl.cc \
 	content/renderer/media/android/stream_texture_factory_android_synchronous_impl.cc \
@@ -158,7 +158,7 @@ LOCAL_SRC_FILES := \
 	content/renderer/render_view_impl_params.cc \
 	content/renderer/render_view_linux.cc \
 	content/renderer/render_view_mouse_lock_dispatcher.cc \
-	content/renderer/render_widget.cc \
+	content/renderer/render_widget.cc.arm \
 	content/renderer/render_widget_fullscreen.cc \
 	content/renderer/renderer_clipboard_client.cc \
 	content/renderer/renderer_date_time_picker.cc \

@@ -30,7 +30,7 @@ LOCAL_SRC_FILES := \
 	android_webview/native/android_webview_jni_registrar.cc \
 	android_webview/native/aw_autofill_manager_delegate.cc \
 	android_webview/native/aw_browser_dependency_factory.cc \
-	android_webview/native/aw_contents.cc \
+	android_webview/native/aw_contents.cc.arm \
 	android_webview/native/aw_contents_client_bridge.cc \
 	android_webview/native/aw_contents_io_thread_client_impl.cc \
 	android_webview/native/aw_dev_tools_server.cc \

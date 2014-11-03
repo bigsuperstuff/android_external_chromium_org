@@ -31,7 +31,7 @@ LOCAL_SRC_FILES := \
 	webkit/browser/appcache/appcache_group.cc \
 	webkit/browser/appcache/appcache_histograms.cc \
 	webkit/browser/appcache/appcache_host.cc \
-	webkit/browser/appcache/appcache_interceptor.cc \
+	webkit/browser/appcache/appcache_interceptor.cc.arm \
 	webkit/browser/appcache/appcache_quota_client.cc \
 	webkit/browser/appcache/appcache_request_handler.cc \
 	webkit/browser/appcache/appcache_response.cc \

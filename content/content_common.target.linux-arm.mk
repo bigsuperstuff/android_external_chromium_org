@@ -67,7 +67,7 @@ LOCAL_SRC_FILES := \
 	content/common/browser_plugin/browser_plugin_constants.cc \
 	content/common/browser_rendering_stats.cc \
 	content/common/cc_messages.cc \
-	content/common/child_process_host_impl.cc \
+	content/common/child_process_host_impl.cc.arm \
 	content/common/clipboard_messages.cc \
 	content/common/content_constants_internal.cc \
 	content/common/content_ipc_logging.cc \
@@ -83,16 +83,16 @@ LOCAL_SRC_FILES := \
 	content/common/gpu/client/context_provider_command_buffer.cc \
 	content/common/gpu/client/gl_helper.cc \
 	content/common/gpu/client/gl_helper_scaling.cc \
-	content/common/gpu/client/gpu_channel_host.cc \
+	content/common/gpu/client/gpu_channel_host.cc.arm \
 	content/common/gpu/client/gpu_memory_buffer_impl.cc \
 	content/common/gpu/client/gpu_memory_buffer_impl_android.cc \
 	content/common/gpu/client/gpu_memory_buffer_impl_shm.cc \
 	content/common/gpu/client/gpu_video_decode_accelerator_host.cc \
 	content/common/gpu/client/gpu_video_encode_accelerator_host.cc \
-	content/common/gpu/client/webgraphicscontext3d_command_buffer_impl.cc \
+	content/common/gpu/client/webgraphicscontext3d_command_buffer_impl.cc.arm \
 	content/common/gpu/devtools_gpu_agent.cc \
 	content/common/gpu/devtools_gpu_instrumentation.cc \
-	content/common/gpu/gpu_channel.cc \
+	content/common/gpu/gpu_channel.cc.arm \
 	content/common/gpu/gpu_channel_manager.cc \
 	content/common/gpu/gpu_command_buffer_stub.cc \
 	content/common/gpu/gpu_memory_manager.cc \
@@ -130,7 +130,7 @@ LOCAL_SRC_FILES := \
 	content/common/message_router.cc \
 	content/common/net/url_fetcher.cc \
 	content/common/net/url_request_user_data.cc \
-	content/common/one_writer_seqlock.cc \
+	content/common/one_writer_seqlock.cc.arm \
 	content/common/page_state_serialization.cc \
 	content/common/page_zoom.cc \
 	content/common/pepper_renderer_instance_data.cc \

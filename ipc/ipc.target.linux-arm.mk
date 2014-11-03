@@ -24,19 +24,19 @@ GYP_COPIED_SOURCE_ORIGIN_DIRS :=
 
 LOCAL_SRC_FILES := \
 	ipc/file_descriptor_set_posix.cc \
-	ipc/ipc_channel.cc \
+	ipc/ipc_channel.cc.arm \
 	ipc/ipc_channel_factory.cc \
-	ipc/ipc_channel_posix.cc \
+	ipc/ipc_channel_posix.cc.arm \
 	ipc/ipc_channel_proxy.cc \
 	ipc/ipc_channel_reader.cc \
 	ipc/ipc_forwarding_message_filter.cc \
 	ipc/ipc_logging.cc \
-	ipc/ipc_message.cc \
+	ipc/ipc_message.cc.arm \
 	ipc/ipc_message_utils.cc \
 	ipc/ipc_platform_file.cc \
 	ipc/ipc_switches.cc \
 	ipc/ipc_sync_channel.cc \
-	ipc/ipc_sync_message.cc \
+	ipc/ipc_sync_message.cc.arm \
 	ipc/ipc_sync_message_filter.cc \
 	ipc/unix_domain_socket_util.cc
 

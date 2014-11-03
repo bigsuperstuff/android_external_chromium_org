@@ -41,9 +41,9 @@ LOCAL_SRC_FILES := \
 	base/third_party/nspr/prtime.cc \
 	base/allocator/allocator_extension.cc \
 	base/allocator/type_profiler_control.cc \
-	base/android/activity_status.cc \
+	base/android/activity_status.cc.arm \
 	base/android/base_jni_registrar.cc \
-	base/android/build_info.cc \
+	base/android/build_info.cc.arm \
 	base/android/command_line_android.cc \
 	base/android/content_uri_utils.cc \
 	base/android/cpu_features.cc \
@@ -61,7 +61,7 @@ LOCAL_SRC_FILES := \
 	base/android/path_utils.cc \
 	base/android/sys_utils.cc \
 	base/at_exit.cc \
-	base/barrier_closure.cc \
+	base/barrier_closure.cc.arm \
 	base/base_paths.cc \
 	base/base_paths_android.cc \
 	base/base64.cc \
@@ -80,7 +80,7 @@ LOCAL_SRC_FILES := \
 	base/debug/stack_trace.cc \
 	base/debug/stack_trace_android.cc \
 	base/debug/trace_event_android.cc \
-	base/debug/trace_event_impl.cc \
+	base/debug/trace_event_impl.cc.arm \
 	base/debug/trace_event_impl_constants.cc \
 	base/debug/trace_event_system_stats_monitor.cc \
 	base/debug/trace_event_memory.cc \
@@ -113,7 +113,7 @@ LOCAL_SRC_FILES := \
 	base/json/json_string_value_serializer.cc \
 	base/json/json_writer.cc \
 	base/json/string_escape.cc \
-	base/lazy_instance.cc \
+	base/lazy_instance.cc.arm \
 	base/location.cc \
 	base/logging.cc \
 	base/memory/aligned_memory.cc \
@@ -122,7 +122,7 @@ LOCAL_SRC_FILES := \
 	base/memory/discardable_memory_emulated.cc \
 	base/memory/discardable_memory_provider.cc \
 	base/memory/memory_pressure_listener.cc \
-	base/memory/ref_counted.cc \
+	base/memory/ref_counted.cc.arm \
 	base/memory/ref_counted_memory.cc \
 	base/memory/shared_memory_android.cc \
 	base/memory/shared_memory_posix.cc \
@@ -153,11 +153,11 @@ LOCAL_SRC_FILES := \
 	base/pickle.cc \
 	base/platform_file.cc \
 	base/platform_file_posix.cc \
-	base/posix/global_descriptors.cc \
+	base/posix/global_descriptors.cc.arm \
 	base/posix/unix_domain_socket_linux.cc \
 	base/power_monitor/power_monitor.cc \
 	base/power_monitor/power_monitor_device_source_android.cc \
-	base/power_monitor/power_monitor_device_source.cc \
+	base/power_monitor/power_monitor_device_source.cc.arm \
 	base/power_monitor/power_monitor_source.cc \
 	base/process/internal_linux.cc \
 	base/process/kill.cc \
@@ -191,7 +191,7 @@ LOCAL_SRC_FILES := \
 	base/strings/string_number_conversions.cc \
 	base/strings/string_split.cc \
 	base/strings/string_piece.cc \
-	base/strings/string_util.cc \
+	base/strings/string_util.cc.arm \
 	base/strings/string_util_constants.cc \
 	base/strings/stringprintf.cc \
 	base/strings/sys_string_conversions_posix.cc \
@@ -206,7 +206,7 @@ LOCAL_SRC_FILES := \
 	base/synchronization/waitable_event_posix.cc \
 	base/synchronization/waitable_event_watcher_posix.cc \
 	base/system_monitor/system_monitor.cc \
-	base/sys_info.cc \
+	base/sys_info.cc.arm \
 	base/sys_info_android.cc \
 	base/sys_info_linux.cc \
 	base/sys_info_posix.cc \
@@ -216,12 +216,12 @@ LOCAL_SRC_FILES := \
 	base/threading/platform_thread_android.cc \
 	base/threading/platform_thread_posix.cc \
 	base/threading/post_task_and_reply_impl.cc \
-	base/threading/sequenced_worker_pool.cc \
+	base/threading/sequenced_worker_pool.cc.arm \
 	base/threading/simple_thread.cc \
 	base/threading/thread.cc \
 	base/threading/thread_checker_impl.cc \
-	base/threading/thread_collision_warner.cc \
-	base/threading/thread_id_name_manager.cc \
+	base/threading/thread_collision_warner.cc.arm \
+	base/threading/thread_id_name_manager.cc.arm \
 	base/threading/thread_local_posix.cc \
 	base/threading/thread_local_storage_posix.cc \
 	base/threading/thread_restrictions.cc \

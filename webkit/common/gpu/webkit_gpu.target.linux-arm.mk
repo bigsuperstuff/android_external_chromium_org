@@ -29,7 +29,7 @@ LOCAL_SRC_FILES := \
 	webkit/common/gpu/context_provider_in_process.cc \
 	webkit/common/gpu/grcontext_for_webgraphicscontext3d.cc \
 	webkit/common/gpu/test_context_provider_factory.cc \
-	webkit/common/gpu/webgraphicscontext3d_in_process_command_buffer_impl.cc \
+	webkit/common/gpu/webgraphicscontext3d_in_process_command_buffer_impl.cc.arm \
 	webkit/common/gpu/webgraphicscontext3d_provider_impl.cc
 
 

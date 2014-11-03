@@ -69,7 +69,7 @@ LOCAL_SRC_FILES := \
 	content/child/service_worker/service_worker_dispatcher.cc \
 	content/child/service_worker/service_worker_message_filter.cc \
 	content/child/service_worker/web_service_worker_impl.cc \
-	content/child/service_worker/web_service_worker_provider_impl.cc \
+	content/child/service_worker/web_service_worker_provider_impl.cc.arm \
 	content/child/site_isolation_policy.cc \
 	content/child/socket_stream_dispatcher.cc \
 	content/child/thread_safe_sender.cc \

@@ -69,10 +69,10 @@ LOCAL_SRC_FILES := \
 	net/base/mime_util.cc \
 	net/base/net_errors.cc \
 	net/base/net_errors_posix.cc \
-	net/base/net_log.cc \
+	net/base/net_log.cc.arm \
 	net/base/net_log_logger.cc \
 	net/base/net_module.cc \
-	net/base/net_util.cc \
+	net/base/net_util.cc.arm \
 	net/base/net_util_posix.cc \
 	net/base/network_change_notifier.cc \
 	net/base/network_delegate.cc \
@@ -95,7 +95,7 @@ LOCAL_SRC_FILES := \
 	net/base/url_util.cc \
 	net/base/zap.cc \
 	net/cert/asn1_util.cc \
-	net/cert/cert_database.cc \
+	net/cert/cert_database.cc.arm \
 	net/cert/cert_database_android.cc \
 	net/cert/cert_status_flags.cc \
 	net/cert/cert_verifier.cc \
@@ -122,7 +122,7 @@ LOCAL_SRC_FILES := \
 	net/cert/x509_cert_types.cc \
 	net/cert/x509_certificate.cc \
 	net/cert/x509_certificate_net_log_param.cc \
-	net/cert/x509_certificate_openssl.cc \
+	net/cert/x509_certificate_openssl.cc.arm \
 	net/cert/x509_util.cc \
 	net/cert/x509_util_android.cc \
 	net/cert/x509_util_openssl.cc \
@@ -207,7 +207,7 @@ LOCAL_SRC_FILES := \
 	net/ftp/ftp_network_transaction.cc \
 	net/ftp/ftp_response_info.cc \
 	net/ftp/ftp_server_type_histograms.cc \
-	net/ftp/ftp_util.cc \
+	net/ftp/ftp_util.cc.arm \
 	net/http/des.cc \
 	net/http/http_auth.cc \
 	net/http/http_auth_cache.cc \
@@ -305,7 +305,7 @@ LOCAL_SRC_FILES := \
 	net/quic/crypto/cert_compressor.cc \
 	net/quic/crypto/channel_id.cc \
 	net/quic/crypto/channel_id_openssl.cc \
-	net/quic/crypto/common_cert_set.cc \
+	net/quic/crypto/common_cert_set.cc.arm \
 	net/quic/crypto/crypto_framer.cc \
 	net/quic/crypto/crypto_handshake.cc \
 	net/quic/crypto/crypto_secret_boxer.cc \
@@ -323,7 +323,7 @@ LOCAL_SRC_FILES := \
 	net/quic/crypto/quic_crypto_server_config.cc \
 	net/quic/crypto/quic_decrypter.cc \
 	net/quic/crypto/quic_encrypter.cc \
-	net/quic/crypto/quic_random.cc \
+	net/quic/crypto/quic_random.cc.arm \
 	net/quic/crypto/scoped_evp_cipher_ctx.cc \
 	net/quic/crypto/strike_register.cc \
 	net/quic/crypto/source_address_token.cc \
@@ -381,7 +381,7 @@ LOCAL_SRC_FILES := \
 	net/socket/socks_client_socket.cc \
 	net/socket/socks_client_socket_pool.cc \
 	net/socket/ssl_client_socket.cc \
-	net/socket/ssl_client_socket_openssl.cc \
+	net/socket/ssl_client_socket_openssl.cc.arm \
 	net/socket/ssl_client_socket_pool.cc \
 	net/socket/ssl_error_params.cc \
 	net/socket/ssl_server_socket_openssl.cc \
@@ -397,7 +397,7 @@ LOCAL_SRC_FILES := \
 	net/socket/unix_domain_socket_posix.cc \
 	net/socket_stream/socket_stream.cc \
 	net/socket_stream/socket_stream_job.cc \
-	net/socket_stream/socket_stream_job_manager.cc \
+	net/socket_stream/socket_stream_job_manager.cc.arm \
 	net/socket_stream/socket_stream_metrics.cc \
 	net/spdy/buffered_spdy_framer.cc \
 	net/spdy/spdy_buffer.cc \
@@ -418,7 +418,7 @@ LOCAL_SRC_FILES := \
 	net/spdy/spdy_websocket_stream.cc \
 	net/spdy/spdy_write_queue.cc \
 	net/ssl/default_server_bound_cert_store.cc \
-	net/ssl/openssl_client_key_store.cc \
+	net/ssl/openssl_client_key_store.cc.arm \
 	net/ssl/server_bound_cert_service.cc \
 	net/ssl/server_bound_cert_store.cc \
 	net/ssl/signed_certificate_timestamp_and_status.cc \
@@ -458,7 +458,7 @@ LOCAL_SRC_FILES := \
 	net/url_request/url_request_job.cc \
 	net/url_request/url_request_job_factory.cc \
 	net/url_request/url_request_job_factory_impl.cc \
-	net/url_request/url_request_job_manager.cc \
+	net/url_request/url_request_job_manager.cc.arm \
 	net/url_request/url_request_netlog_params.cc \
 	net/url_request/url_request_redirect_job.cc \
 	net/url_request/url_request_simple_job.cc \
@@ -486,7 +486,7 @@ LOCAL_SRC_FILES := \
 	net/websockets/websocket_job.cc \
 	net/websockets/websocket_net_log_params.cc \
 	net/websockets/websocket_stream.cc \
-	net/websockets/websocket_throttle.cc
+	net/websockets/websocket_throttle.cc.arm
 
 
 # Flags passed to both C and C++ files.

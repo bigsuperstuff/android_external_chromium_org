@@ -38,14 +38,14 @@ LOCAL_SRC_FILES := \
 	webkit/child/webfallbackthemeengine_impl.cc \
 	webkit/child/webkit_child_helpers.cc \
 	webkit/child/webkitplatformsupport_child_impl.cc \
-	webkit/child/webkitplatformsupport_impl.cc \
+	webkit/child/webkitplatformsupport_impl.cc.arm \
 	webkit/child/websocketstreamhandle_impl.cc \
 	webkit/child/webthemeengine_impl_android.cc \
 	webkit/child/webthread_impl.cc \
 	webkit/child/weburlloader_impl.cc \
 	webkit/child/weburlrequest_extradata_impl.cc \
 	webkit/child/weburlresponse_extradata_impl.cc \
-	webkit/child/worker_task_runner.cc
+	webkit/child/worker_task_runner.cc.arm
 
 
 # Flags passed to both C and C++ files.

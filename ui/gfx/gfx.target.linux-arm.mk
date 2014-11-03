@@ -31,7 +31,7 @@ LOCAL_SRC_FILES := \
 	ui/gfx/android/device_display_info.cc \
 	ui/gfx/android/gfx_jni_registrar.cc \
 	ui/gfx/android/java_bitmap.cc \
-	ui/gfx/android/shared_device_display_info.cc \
+	ui/gfx/android/shared_device_display_info.cc.arm \
 	ui/gfx/android/view_configuration.cc \
 	ui/gfx/animation/animation.cc \
 	ui/gfx/animation/animation_container.cc \

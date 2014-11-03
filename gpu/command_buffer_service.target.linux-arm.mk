@@ -67,7 +67,7 @@ LOCAL_SRC_FILES := \
 	gpu/command_buffer/service/safe_shared_memory_pool.cc \
 	gpu/command_buffer/service/shader_manager.cc \
 	gpu/command_buffer/service/shader_translator.cc \
-	gpu/command_buffer/service/shader_translator_cache.cc \
+	gpu/command_buffer/service/shader_translator_cache.cc.arm \
 	gpu/command_buffer/service/stream_texture_manager_in_process_android.cc \
 	gpu/command_buffer/service/texture_definition.cc \
 	gpu/command_buffer/service/texture_manager.cc \

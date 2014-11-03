@@ -80,7 +80,7 @@ LOCAL_SRC_FILES := \
 	content/browser/accessibility/browser_accessibility_android.cc \
 	content/browser/accessibility/browser_accessibility_manager.cc \
 	content/browser/accessibility/browser_accessibility_manager_android.cc \
-	content/browser/accessibility/browser_accessibility_state_impl.cc \
+	content/browser/accessibility/browser_accessibility_state_impl.cc.arm \
 	content/browser/android/browser_jni_registrar.cc \
 	content/browser/android/browser_startup_controller.cc \
 	content/browser/android/child_process_launcher_android.cc \
@@ -91,7 +91,7 @@ LOCAL_SRC_FILES := \
 	content/browser/android/content_view_render_view.cc \
 	content/browser/android/content_view_statics.cc \
 	content/browser/android/date_time_chooser_android.cc \
-	content/browser/android/download_controller_android_impl.cc \
+	content/browser/android/download_controller_android_impl.cc.arm \
 	content/browser/android/devtools_auth.cc \
 	content/browser/android/edge_effect.cc \
 	content/browser/android/in_process/synchronous_compositor_factory_impl.cc \
@@ -120,20 +120,20 @@ LOCAL_SRC_FILES := \
 	content/browser/browser_plugin/browser_plugin_message_filter.cc \
 	content/browser/browser_process_sub_thread.cc \
 	content/browser/browser_shutdown_profile_dumper.cc \
-	content/browser/browser_thread_impl.cc \
-	content/browser/browser_url_handler_impl.cc \
+	content/browser/browser_thread_impl.cc.arm \
+	content/browser/browser_url_handler_impl.cc.arm \
 	content/browser/browsing_instance.cc \
 	content/browser/byte_stream.cc \
-	content/browser/cert_store_impl.cc \
+	content/browser/cert_store_impl.cc.arm \
 	content/browser/child_process_launcher.cc \
-	content/browser/child_process_security_policy_impl.cc \
-	content/browser/cross_site_request_manager.cc \
+	content/browser/child_process_security_policy_impl.cc.arm \
+	content/browser/cross_site_request_manager.cc.arm \
 	content/browser/devtools/devtools_agent_host_impl.cc \
 	content/browser/devtools/devtools_browser_target.cc \
 	content/browser/devtools/devtools_external_agent_proxy_impl.cc \
 	content/browser/devtools/devtools_frontend_host.cc \
 	content/browser/devtools/devtools_http_handler_impl.cc \
-	content/browser/devtools/devtools_manager_impl.cc \
+	content/browser/devtools/devtools_manager_impl.cc.arm \
 	content/browser/devtools/devtools_netlog_observer.cc \
 	content/browser/devtools/devtools_protocol.cc \
 	content/browser/devtools/devtools_protocol_constants.cc \
@@ -143,22 +143,22 @@ LOCAL_SRC_FILES := \
 	content/browser/devtools/render_view_devtools_agent_host.cc \
 	content/browser/devtools/renderer_overrides_handler.cc \
 	content/browser/devtools/tethering_handler.cc \
-	content/browser/devtools/worker_devtools_manager.cc \
+	content/browser/devtools/worker_devtools_manager.cc.arm \
 	content/browser/devtools/worker_devtools_message_filter.cc \
-	content/browser/device_orientation/data_fetcher_impl_android.cc \
+	content/browser/device_orientation/data_fetcher_impl_android.cc.arm \
 	content/browser/device_orientation/data_fetcher_shared_memory_android.cc \
 	content/browser/device_orientation/data_fetcher_shared_memory_base.cc \
-	content/browser/device_orientation/device_inertial_sensor_service.cc \
+	content/browser/device_orientation/device_inertial_sensor_service.cc.arm \
 	content/browser/device_orientation/device_motion_message_filter.cc \
 	content/browser/device_orientation/device_orientation_message_filter.cc \
 	content/browser/dom_storage/dom_storage_area.cc \
-	content/browser/dom_storage/dom_storage_context_impl.cc \
+	content/browser/dom_storage/dom_storage_context_impl.cc.arm \
 	content/browser/dom_storage/dom_storage_context_wrapper.cc \
 	content/browser/dom_storage/dom_storage_database.cc \
 	content/browser/dom_storage/dom_storage_host.cc \
 	content/browser/dom_storage/dom_storage_message_filter.cc \
 	content/browser/dom_storage/dom_storage_namespace.cc \
-	content/browser/dom_storage/dom_storage_session.cc \
+	content/browser/dom_storage/dom_storage_session.cc.arm \
 	content/browser/dom_storage/dom_storage_task_runner.cc \
 	content/browser/dom_storage/local_storage_database_adapter.cc \
 	content/browser/dom_storage/session_storage_database.cc \
@@ -179,7 +179,7 @@ LOCAL_SRC_FILES := \
 	content/browser/download/download_stats.cc \
 	content/browser/download/drag_download_file.cc \
 	content/browser/download/drag_download_util.cc \
-	content/browser/download/mhtml_generation_manager.cc \
+	content/browser/download/mhtml_generation_manager.cc.arm \
 	content/browser/download/rate_estimator.cc \
 	content/browser/download/save_file.cc \
 	content/browser/download/save_file_manager.cc \
@@ -206,11 +206,11 @@ LOCAL_SRC_FILES := \
 	content/browser/frame_host/render_frame_host_manager.cc \
 	content/browser/frame_host/render_frame_message_filter.cc \
 	content/browser/gamepad/gamepad_provider.cc \
-	content/browser/gamepad/gamepad_service.cc \
+	content/browser/gamepad/gamepad_service.cc.arm \
 	content/browser/geolocation/empty_wifi_data_provider.cc \
 	content/browser/geolocation/geolocation_dispatcher_host.cc \
-	content/browser/geolocation/geolocation_provider_impl.cc \
-	content/browser/geolocation/location_api_adapter_android.cc \
+	content/browser/geolocation/geolocation_provider_impl.cc.arm \
+	content/browser/geolocation/location_api_adapter_android.cc.arm \
 	content/browser/geolocation/location_arbitrator_impl.cc \
 	content/browser/geolocation/location_provider_android.cc \
 	content/browser/geolocation/location_provider_base.cc \
@@ -218,17 +218,17 @@ LOCAL_SRC_FILES := \
 	content/browser/geolocation/wifi_data_provider.cc \
 	content/browser/gpu/browser_gpu_channel_host_factory.cc \
 	content/browser/gpu/compositor_util.cc \
-	content/browser/gpu/gpu_data_manager_impl.cc \
+	content/browser/gpu/gpu_data_manager_impl.cc.arm \
 	content/browser/gpu/gpu_data_manager_impl_private.cc \
 	content/browser/gpu/gpu_internals_ui.cc \
 	content/browser/gpu/gpu_process_host.cc \
 	content/browser/gpu/gpu_process_host_ui_shim.cc \
-	content/browser/gpu/gpu_surface_tracker.cc \
-	content/browser/gpu/shader_disk_cache.cc \
-	content/browser/histogram_controller.cc \
+	content/browser/gpu/gpu_surface_tracker.cc.arm \
+	content/browser/gpu/shader_disk_cache.cc.arm \
+	content/browser/histogram_controller.cc.arm \
 	content/browser/histogram_internals_request_job.cc \
 	content/browser/histogram_message_filter.cc \
-	content/browser/histogram_synchronizer.cc \
+	content/browser/histogram_synchronizer.cc.arm \
 	content/browser/host_zoom_map_impl.cc \
 	content/browser/indexed_db/indexed_db_backing_store.cc \
 	content/browser/indexed_db/indexed_db_callbacks.cc \
@@ -273,7 +273,7 @@ LOCAL_SRC_FILES := \
 	content/browser/loader/upload_data_stream_builder.cc \
 	content/browser/media/android/browser_demuxer_android.cc \
 	content/browser/media/android/browser_media_player_manager.cc \
-	content/browser/media/android/media_drm_credential_manager.cc \
+	content/browser/media/android/media_drm_credential_manager.cc.arm \
 	content/browser/media/android/media_resource_getter_impl.cc \
 	content/browser/media/media_devices_monitor.cc \
 	content/browser/media/media_internals.cc \
@@ -282,11 +282,11 @@ LOCAL_SRC_FILES := \
 	content/browser/media/media_internals_ui.cc \
 	content/browser/media/webrtc_identity_store.cc \
 	content/browser/media/webrtc_identity_store_backend.cc \
-	content/browser/media/webrtc_internals.cc \
+	content/browser/media/webrtc_internals.cc.arm \
 	content/browser/media/webrtc_internals_message_handler.cc \
 	content/browser/media/webrtc_internals_ui.cc \
 	content/browser/message_port_message_filter.cc \
-	content/browser/message_port_service.cc \
+	content/browser/message_port_service.cc.arm \
 	content/browser/mime_registry_message_filter.cc \
 	content/browser/net/browser_online_state_observer.cc \
 	content/browser/net/sqlite_persistent_cookie_store.cc \
@@ -296,7 +296,7 @@ LOCAL_SRC_FILES := \
 	content/browser/power_monitor_message_broadcaster.cc \
 	content/browser/power_save_blocker_android.cc \
 	content/browser/power_save_blocker_impl.cc \
-	content/browser/profiler_controller_impl.cc \
+	content/browser/profiler_controller_impl.cc.arm \
 	content/browser/profiler_message_filter.cc \
 	content/browser/quota_dispatcher_host.cc \
 	content/browser/renderer_host/backing_store.cc \
@@ -330,12 +330,12 @@ LOCAL_SRC_FILES := \
 	content/browser/renderer_host/input/web_input_event_util.cc \
 	content/browser/renderer_host/input/web_input_event_util_posix.cc \
 	content/browser/renderer_host/java/java_bound_object.cc \
-	content/browser/renderer_host/java/java_bridge_channel_host.cc \
+	content/browser/renderer_host/java/java_bridge_channel_host.cc.arm \
 	content/browser/renderer_host/java/java_bridge_dispatcher_host.cc \
 	content/browser/renderer_host/java/java_bridge_dispatcher_host_manager.cc \
 	content/browser/renderer_host/java/java_method.cc \
 	content/browser/renderer_host/java/java_type.cc \
-	content/browser/renderer_host/java/jni_helper.cc \
+	content/browser/renderer_host/java/jni_helper.cc.arm \
 	content/browser/renderer_host/media/audio_input_device_manager.cc \
 	content/browser/renderer_host/media/audio_input_renderer_host.cc \
 	content/browser/renderer_host/media/audio_input_sync_writer.cc \
@@ -368,13 +368,13 @@ LOCAL_SRC_FILES := \
 	content/browser/renderer_host/render_view_host_delegate.cc \
 	content/browser/renderer_host/render_view_host_factory.cc \
 	content/browser/renderer_host/render_view_host_impl.cc \
-	content/browser/renderer_host/render_widget_helper.cc \
+	content/browser/renderer_host/render_widget_helper.cc.arm \
 	content/browser/renderer_host/render_widget_host_delegate.cc \
 	content/browser/renderer_host/render_widget_host_impl.cc \
 	content/browser/renderer_host/render_widget_host_view_android.cc \
 	content/browser/renderer_host/render_widget_host_view_base.cc \
 	content/browser/renderer_host/render_widget_host_view_guest.cc \
-	content/browser/renderer_host/renderer_frame_manager.cc \
+	content/browser/renderer_host/renderer_frame_manager.cc.arm \
 	content/browser/renderer_host/software_frame_manager.cc \
 	content/browser/renderer_host/socket_stream_dispatcher_host.cc \
 	content/browser/renderer_host/socket_stream_host.cc \
@@ -393,7 +393,7 @@ LOCAL_SRC_FILES := \
 	content/browser/service_worker/service_worker_registration_status.cc \
 	content/browser/service_worker/service_worker_storage.cc \
 	content/browser/service_worker/service_worker_version.cc \
-	content/browser/signed_certificate_timestamp_store_impl.cc \
+	content/browser/signed_certificate_timestamp_store_impl.cc.arm \
 	content/browser/site_instance_impl.cc \
 	content/browser/speech/speech_recognition_dispatcher_host.cc \
 	content/browser/speech/speech_recognition_manager_impl.cc \
@@ -414,7 +414,7 @@ LOCAL_SRC_FILES := \
 	content/browser/streams/stream_url_request_job.cc \
 	content/browser/storage_partition_impl.cc \
 	content/browser/storage_partition_impl_map.cc \
-	content/browser/tcmalloc_internals_request_job.cc \
+	content/browser/tcmalloc_internals_request_job.cc.arm \
 	content/browser/tracing/trace_message_filter.cc \
 	content/browser/tracing/tracing_controller_impl.cc \
 	content/browser/user_metrics.cc \
@@ -425,20 +425,20 @@ LOCAL_SRC_FILES := \
 	content/browser/web_contents/web_contents_impl.cc \
 	content/browser/web_contents/web_contents_view_android.cc \
 	content/browser/web_contents/web_contents_view_guest.cc \
-	content/browser/webui/content_web_ui_controller_factory.cc \
+	content/browser/webui/content_web_ui_controller_factory.cc.arm \
 	content/browser/webui/generic_handler.cc \
 	content/browser/webui/shared_resources_data_source.cc \
 	content/browser/webui/url_data_manager.cc \
 	content/browser/webui/url_data_manager_backend.cc \
 	content/browser/webui/url_data_source_impl.cc \
 	content/browser/webui/web_ui_data_source_impl.cc \
-	content/browser/webui/web_ui_controller_factory_registry.cc \
+	content/browser/webui/web_ui_controller_factory_registry.cc.arm \
 	content/browser/webui/web_ui_impl.cc \
 	content/browser/webui/web_ui_message_handler.cc \
 	content/browser/worker_host/worker_document_set.cc \
 	content/browser/worker_host/worker_message_filter.cc \
 	content/browser/worker_host/worker_process_host.cc \
-	content/browser/worker_host/worker_service_impl.cc \
+	content/browser/worker_host/worker_service_impl.cc.arm \
 	content/browser/worker_host/worker_storage_partition.cc \
 	content/browser/gamepad/gamepad_platform_data_fetcher.cc
 

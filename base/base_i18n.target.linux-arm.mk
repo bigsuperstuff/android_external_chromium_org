@@ -29,7 +29,7 @@ LOCAL_SRC_FILES := \
 	base/i18n/break_iterator.cc \
 	base/i18n/char_iterator.cc \
 	base/i18n/case_conversion.cc \
-	base/i18n/file_util_icu.cc \
+	base/i18n/file_util_icu.cc.arm \
 	base/i18n/i18n_constants.cc \
 	base/i18n/icu_encoding_detection.cc \
 	base/i18n/icu_string_conversions.cc \
@@ -39,7 +39,7 @@ LOCAL_SRC_FILES := \
 	base/i18n/string_compare.cc \
 	base/i18n/string_search.cc \
 	base/i18n/time_formatting.cc \
-	base/i18n/timezone.cc
+	base/i18n/timezone.cc.arm
 
 
 # Flags passed to both C and C++ files.

@@ -125,7 +125,7 @@ LOCAL_SRC_FILES := \
 	ui/gl/gl_surface_stub.cc \
 	ui/gl/gl_surface_osmesa.cc \
 	ui/gl/gl_switches.cc \
-	ui/gl/gpu_switching_manager.cc \
+	ui/gl/gpu_switching_manager.cc.arm \
 	ui/gl/scoped_binders.cc \
 	ui/gl/scoped_make_current.cc \
 	ui/gl/sync_control_vsync_provider.cc \

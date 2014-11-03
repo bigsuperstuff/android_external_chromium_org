@@ -40,7 +40,7 @@ LOCAL_SRC_FILES := \
 	printing/pdf_metafile_skia.cc \
 	printing/print_destination_none.cc \
 	printing/print_job_constants.cc \
-	printing/print_settings.cc \
+	printing/print_settings.cc.arm \
 	printing/print_settings_initializer.cc \
 	printing/printed_document.cc \
 	printing/printed_page.cc \

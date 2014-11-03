@@ -45,7 +45,7 @@ LOCAL_SRC_FILES := \
 	google_apis/gaia/gaia_constants.cc \
 	google_apis/gaia/gaia_oauth_client.cc \
 	google_apis/gaia/gaia_switches.cc \
-	google_apis/gaia/gaia_urls.cc \
+	google_apis/gaia/gaia_urls.cc.arm \
 	google_apis/gaia/google_service_auth_error.cc \
 	google_apis/gaia/oauth_request_signer.cc \
 	google_apis/gaia/oauth2_access_token_fetcher.cc \

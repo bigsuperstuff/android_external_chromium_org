@@ -203,10 +203,10 @@ LOCAL_SRC_FILES := \
 	cc/scheduler/scheduler_settings.cc \
 	cc/scheduler/scheduler_state_machine.cc \
 	cc/scheduler/texture_uploader.cc \
-	cc/trees/blocking_task_runner.cc \
+	cc/trees/blocking_task_runner.cc.arm \
 	cc/trees/damage_tracker.cc \
 	cc/trees/layer_sorter.cc \
-	cc/trees/layer_tree_host.cc \
+	cc/trees/layer_tree_host.cc.arm \
 	cc/trees/layer_tree_host_common.cc \
 	cc/trees/layer_tree_host_impl.cc \
 	cc/trees/layer_tree_impl.cc \

@@ -38,7 +38,7 @@ LOCAL_SRC_FILES := \
 	components/autofill/core/browser/address.cc \
 	components/autofill/core/browser/address_field.cc \
 	components/autofill/core/browser/autocomplete_history_manager.cc \
-	components/autofill/core/browser/autofill_country.cc \
+	components/autofill/core/browser/autofill_country.cc.arm \
 	components/autofill/core/browser/autofill_data_model.cc \
 	components/autofill/core/browser/autofill_download.cc \
 	components/autofill/core/browser/autofill_download_url.cc \
@@ -47,7 +47,7 @@ LOCAL_SRC_FILES := \
 	components/autofill/core/browser/autofill_manager.cc \
 	components/autofill/core/browser/autofill_metrics.cc \
 	components/autofill/core/browser/autofill_profile.cc \
-	components/autofill/core/browser/autofill_regexes.cc \
+	components/autofill/core/browser/autofill_regexes.cc.arm \
 	components/autofill/core/browser/autofill_scanner.cc \
 	components/autofill/core/browser/autofill_type.cc \
 	components/autofill/core/browser/autofill_xml_parser.cc \
